@@ -254,7 +254,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.oplus
+    vendor.aosp.livedisplay@2.1-service.oplus
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -310,7 +310,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosp
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
@@ -332,7 +332,7 @@ PRODUCT_PACKAGES += \
 
 # PowerShare
 PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.oplus
+    vendor.aosp.powershare@1.0-service.oplus
 
 # QMI
 PRODUCT_PACKAGES += \
@@ -418,7 +418,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.oplus
+    vendor.aosp.touch@1.0-service.oplus
 
 # Update engine
 PRODUCT_PACKAGES += \
